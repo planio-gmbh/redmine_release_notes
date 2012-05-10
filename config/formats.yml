@@ -5,9 +5,9 @@
 # for an explanation.
 
 HTML:
-    header: "<h2>Release notes for version %{name}</h2>\n<p><a href=\"your-redmine/versions/%{id}\">Redmine</a></p>"
+    header: "<h2>Release notes for version %{name}</h2>\n<p><a href=\"/versions/%{id}\">Redmine</a></p>"
     start: "<ul>"
-    each_issue: "<li>%{tracker} - <a href=\"your-redmine/issues/%{id}\">%{subject}</a>: %{release_notes}</li>"
+    each_issue: "<li>%{tracker} - <a href=\"/issues/%{id}\">%{subject}</a>: %{release_notes}</li>"
     end: "</ul>"
     
 Textile:
